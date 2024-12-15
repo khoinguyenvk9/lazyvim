@@ -5,7 +5,7 @@ return {
   },
   {
     "nvim-lualine/lualine.nvim",
-    enabled = false,
+    enabled = true,
   },
   -- messages, cmdline and the popupmenu
   {
@@ -70,11 +70,11 @@ return {
       { "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", desc = "Prev tab" },
     },
     opts = {
-      options = {
-        mode = "tabs",
-        show_buffer_close_icons = false,
-        show_close_icon = false,
-      },
+      -- options = {
+      --   mode = "tabs",
+      --   show_buffer_close_icons = false,
+      --   show_close_icon = false,
+      -- },
     },
   },
 
